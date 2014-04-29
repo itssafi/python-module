@@ -1,0 +1,89 @@
+Installing Emacs
+
+Install the package emacs from synaptic or type in a terminal. Or emacs-snapshot-gtk for the version which supports good readable freetype fonts,gtk and other visual goodies.
+
+sudo apt-get install emacs
+
+sudo apt-get install emacs-snapshot-gtk
+
+A Quick Introduction
+
+You can start Emacs in console mode by typing emacs -nw at the terminal or Emacs in graphical mode by typing emacs (or from Gnome menu).
+
+Hotkeys
+
+Here is a list of general hotkeys (M is Meta button, Alt on many keyboards; C is Ctrl):
+
+File Keys
+
+    C-x C-f Open file
+
+    C-x C-f /sudo::/path_to_your_file Open as root
+
+    C-x C-s Save file (buffer)
+
+    C-x C-w Save file (buffer) as
+
+    C-x C-k Close file (buffer) 
+
+Moving Keys
+
+    C-a Move the the beginning of a line
+
+    C-e Move to the end of a line
+
+    C-p Move one line up
+
+    C-n Move one line down
+
+    C-< Go to the beginning of buffer (file)
+
+    C-> Go to the end of buffer (file) 
+
+Exit Keys
+
+    C-x C-c Exit Emacs
+
+    C-z Hide/Minimize Emacs 
+
+Search Keys
+
+    C-s Forward search a string
+
+    C-r Reverse search a string 
+
+Character Edit Keys
+
+    C-d Delete a character
+
+    M-d Delete a word
+
+    C-x u or C-_ Undo 
+
+Selection Keys
+
+    C-x h Select all buffer (file)
+
+    M-h Select current paragraph
+
+    C-SPC Start selection (mark) 
+
+Copy/Paste Keys
+
+    M-w Copy (Copy to kill ring)
+
+    C-w Cut (Kill region)
+
+    C-y Paste (Yank) 
+
+Buffer (Like window tabs)
+
+    C-x C-b List all buffers
+
+    C-x b Switch to previous buffer 
+
+Others
+
+    M-d Delete a line
+
+    C-g Cancel current command
